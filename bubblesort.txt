@@ -1,0 +1,16 @@
+num=[10,2,12]
+a=len(num)
+for x in range(a):
+  for y in range(x+1,a):
+    if num[x]>num[y]:
+        num[x],num[y]=num[y],num[x]
+    else:
+        num[x],num[y]
+print(num)        
+    
+
+    
+
+    
+
+    
